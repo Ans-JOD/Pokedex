@@ -1,7 +1,12 @@
 .pokemon{
     display: flex;
     flex-direction: column;
-    margin: 15px 0px;
+    padding: 30px;
+    border-radius: 2rem;
+}
+
+.pokemon:hover{
+    background-color: rgb(255, 255, 57);
 }
 
 
