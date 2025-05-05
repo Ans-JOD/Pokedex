@@ -1,0 +1,18 @@
+.pokemon-list{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.pokemon-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.list-heading{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+}

@@ -1,0 +1,16 @@
+.pokemon{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+}
+
+
+.pokemon-name{
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.pokemon-img{
+    width: 15rem;
+    height: 6rem;
+}

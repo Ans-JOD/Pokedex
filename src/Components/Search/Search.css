@@ -1,0 +1,18 @@
+.search-bar{
+    width: 15rem;
+    padding: 1rem;
+}
+
+input::placeholder{
+    padding-left: 15px;
+}
+
+.search{
+    width: 15rem;
+    height: 3rem;
+    border-radius:1rem;
+    border-style: dotted;
+    padding: 0.4rem;
+    background-color: yellow;
+    
+}
