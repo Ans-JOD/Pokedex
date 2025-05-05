@@ -13,9 +13,21 @@
 
 
 .list-heading{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
     font-weight: 900;
     color: black;
+}
 
+.heading-with-button{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    margin: 0px 2rem;
+    cursor: pointer;
+    background-color: rgb(254, 243, 141);
 }
