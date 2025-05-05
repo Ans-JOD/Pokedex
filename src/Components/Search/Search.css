@@ -14,5 +14,5 @@ input::placeholder{
     border-style: dotted;
     padding: 0.4rem;
     background-color: yellow;
-    
+    color: black;
 }

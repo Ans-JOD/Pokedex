@@ -87,7 +87,7 @@ const PokemonList = ({ searchedPokemon, setSearchedPokemon }) => {
 
           <div className="pokemon-wrapper">
             {loading
-              ? "Loading..."
+              ? <div style={{color: 'black',width:'100vw'}}>Loading...</div>
               : pokemonList.map((pokemon) => (
                   <Pokemon
                     name={pokemon.name}
