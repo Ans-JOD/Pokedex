@@ -93,6 +93,7 @@ const PokemonList = ({ searchedPokemon, setSearchedPokemon }) => {
                     name={pokemon.name}
                     img={pokemon.image}
                     key={pokemon.id}
+                    id={pokemon.id}
                   />
                 ))}
           </div>
