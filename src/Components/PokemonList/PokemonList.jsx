@@ -71,6 +71,7 @@ const PokemonList = ({ searchedPokemon, setSearchedPokemon }) => {
             <button
               className="btn"
               disabled={prevURL == null}
+              style={{ color: prevURL == null ? 'grey': 'black'}}
               onClick={() => setPodedexURL(prevURL)}
             >
               Prev
@@ -79,6 +80,7 @@ const PokemonList = ({ searchedPokemon, setSearchedPokemon }) => {
             <button
               className="btn"
               disabled={nextURL == null}
+              style={{ color: nextURL == null ? 'grey': 'black'}}
               onClick={() => setPodedexURL(nextURL)}
             >
               Next

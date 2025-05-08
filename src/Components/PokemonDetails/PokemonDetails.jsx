@@ -39,7 +39,7 @@ const PokemonDetails = () => {
                     <h2>{pokemon.name}</h2>
                     <div> <img src={pokemon.Image} className='pokemon-img'/> </div>
                     <div className='pokemon-name' style={{marginTop:'1rem'}}> weight: <span>{pokemon.weight}</span> kg </div>
-                    <div className='pokemon-name'> height: <span>{pokemon.height}</span> </div> 
+                    <div className='pokemon-name'> height: <span>{pokemon.height} m</span> </div> 
                     <div className='pokemon-types'>
                             {pokemon?.types?.map((t, index)=>
                                     <div className="type" key={index}>
