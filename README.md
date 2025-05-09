@@ -1,3 +1,9 @@
+# About
+
+A Pokedex web application built using ReactJS and the Pokémon API. This app allows users to search for individual Pokémon, view detailed information (such as type, abilities, and stats), and browse a complete list of all available Pokémon
+
+# Live link - https://pokedex-three-pearl.vercel.app/
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
